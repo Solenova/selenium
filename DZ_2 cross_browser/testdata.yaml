@@ -1,0 +1,10 @@
+address: https://test-stand.gb.ru/login
+browser: chrome
+sleep_time: 5
+
+login: 'Aiva'
+password: 'caac05ea6a'
+
+title: 'новый пост'
+description: 'Post cross test'
+content: 'Кроссбраузерное тестирование с Selenium WebDriver'
