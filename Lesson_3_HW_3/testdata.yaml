@@ -1,0 +1,13 @@
+address: https://test-stand.gb.ru/login
+browser: chrome
+sleep_time: 5
+login: 'Aiva'
+password: 'caac05ea6a'
+title: '"New Post 3 seminar"'
+description: 'Post 3 seminar'
+content: 'Прекрасно. Опросите водителей. Может, они что видели. 
+    Затем свяжитесь с таксомоторной компанией, перешлите им описание беглецов.
+     А я позвоню в Интерпол.'
+email: 'abc@mail.ru'
+name: 'Ivan Ivanov'
+text_alert_contact: 'Form successfully submitted'
