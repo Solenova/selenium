@@ -66,10 +66,10 @@ def test_add_contact(browser):
     testpage = OperationsHelper(browser)
     testpage.go_to_site()
     # туда вводим логин
-    testpage.enter_login(testdata["login"])
-    # туда вводим password
-    testpage.enter_pass(testdata["password"])
-    testpage.click_login_button()
+    # testpage.enter_login(testdata["login"])
+    # # туда вводим password
+    # testpage.enter_pass(testdata["password"])
+    # testpage.click_login_button()
 
     # зашли на страницу со своими постами
     testpage.click_contact_href()
