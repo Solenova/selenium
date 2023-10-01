@@ -107,11 +107,12 @@ class OperationsHelper(BasePage):
     def click_contact_href(self):
         logging.info("Click contact_href")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_HREF).click() # нашли кнопку и кликнули по кнопке
+        time.sleep(1)
 
     def enter_your_name_fild(self, word):
         logging.info(f"Send name contact to element {TestSearchLocators.LOCATOR_YOUR_NAME_FILD[1]}")
         # сначала найдем элемент
-        time.sleep(1)
+        time.sleep(2)
         your_name_field = self.find_element(TestSearchLocators.LOCATOR_YOUR_NAME_FILD)
         # вводим текст
         your_name_field.send_keys(word)

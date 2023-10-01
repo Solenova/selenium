@@ -38,27 +38,27 @@ def test_login_positive(browser):
     assert testpage.login_success() == f"Hello, {testdata['login']}", "test_login_positive FAILED"
 
 
-# def test_create_new_post(browser):
-#     logging.info("start test_create_new_post starting")
-#     testpage = OperationsHelper(browser)
-#     testpage.go_to_site()
-#     # туда вводим логин
-#     testpage.enter_login(testdata["login"])
-#     # туда вводим password
-#     testpage.enter_pass(testdata["password"])
-#     testpage.click_login_button()
-#
-#     # зашли на страницу со своими постами
-#     testpage.click_create_post_button()
-#
-#     testpage.enter_title(testdata["title"])
-#     testpage.enter_description(testdata["description"])
-#     testpage.enter_content(testdata["content"])
-#     testpage.click_save_button()
-#
-#     # time.sleep(testdata["sleep_time"])
-#
-#     assert testpage.get_title_post_text() == testdata["title"], "test_step1 FAILED"
+def test_create_new_post(browser):
+    logging.info("start test_create_new_post starting")
+    testpage = OperationsHelper(browser)
+    testpage.go_to_site()
+    # туда вводим логин
+    testpage.enter_login(testdata["login"])
+    # туда вводим password
+    testpage.enter_pass(testdata["password"])
+    testpage.click_login_button()
+
+    # зашли на страницу со своими постами
+    testpage.click_create_post_button()
+
+    testpage.enter_title(testdata["title"])
+    testpage.enter_description(testdata["description"])
+    testpage.enter_content(testdata["content"])
+    testpage.click_save_button()
+
+    # time.sleep(testdata["sleep_time"])
+
+    assert testpage.get_title_post_text() == testdata["title"], "test_step1 FAILED"
 
 
 def test_add_contact(browser):
@@ -78,7 +78,7 @@ def test_add_contact(browser):
     testpage.enter_your_email_fild(testdata["email"])
     testpage.enter_content_contact_fild(testdata["content"])
     testpage.click_contact_us_btn()
-    time.sleep(2)
+
 
     assert testpage.alert_contact_text() == testdata["text_alert_contact"], "test_add_contact FAILED"
 
