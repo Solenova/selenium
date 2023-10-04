@@ -1,0 +1,16 @@
+2023-10-04 22:20:09 INFO start test_login_negative starting
+2023-10-04 22:20:09 INFO Go to selection_from_list_post
+2023-10-04 22:20:11 INFO start test_login_negative starting
+2023-10-04 22:20:11 INFO Go to selection_from_list_post
+2023-10-04 22:20:12 INFO Go to selection_from_list_post
+2023-10-04 22:20:13 INFO ====== WebDriver manager ======
+2023-10-04 22:20:14 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 22:20:15 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 22:20:15 INFO Driver [C:\Users\User\.wdm\drivers\chromedriver\win64\117.0.5938.92\chromedriver-win32/chromedriver.exe] found in cache
+2023-10-04 22:20:16 INFO start test_login_negative starting
+2023-10-04 22:20:21 INFO start test_login_positive starting
+2023-10-04 22:20:25 INFO start test_create_new_post starting
+2023-10-04 22:20:35 INFO start test_add_contact starting
+2023-10-04 22:20:40 INFO Go to alert
+2023-10-04 22:20:40 INFO вызов алерт
+2023-10-04 22:20:40 INFO text alert

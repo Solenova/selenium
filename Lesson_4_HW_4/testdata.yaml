@@ -1,0 +1,19 @@
+address: https://test-stand.gb.ru/login
+wsdl: https://speller.yandex.net/services/spellservice?WSDL
+url_post: https://test-stand.gb.ru/api/posts
+url_api: https://test-stand.gb.ru/gateway/login
+browser: firefox
+
+#  chrome
+sleep_time: 1
+login: 'Aiva'
+password: 'caac05ea6a'
+title: '"New Post 3 seminar"'
+description: 'Post result seminar'
+content: 'Прекрасно. Опросите водителей. Может, они что видели. 
+    Затем свяжитесь с таксомоторной компанией, перешлите им описание беглецов.
+     А я позвоню в Интерпол.'
+title_sample: 'test title'
+email: 'abc@mail.ru'
+name: 'Ivan Ivanov'
+text_alert_contact: 'Form successfully submitted'
