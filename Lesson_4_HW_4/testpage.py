@@ -164,7 +164,7 @@ class OperationsHelperAPI(BasePageAPI):
         return result_header
 
     def create_new_post_headers_value(self, login, password, title, description, content, headers_value):
-        logging.info("Go to selection_from_list_post")
+        logging.info("Go to create_new_post_headers_value")
         self.post_create(self.user_token(login, password), title, description, content, headers_value)
 
     # def selection_from_list_newpost(self, login, password, title, description, content, header_field):
